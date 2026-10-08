@@ -5,6 +5,7 @@ type: software
 authors:
   - family-names: Cai
     given-names: Linzhao
+    orcid: "https://orcid.org/0009-0001-8780-9747"
   - family-names: Yang
     given-names: Jianghui
   - family-names: Xiao

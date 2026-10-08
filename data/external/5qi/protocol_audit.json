@@ -1,0 +1,10 @@
+{
+  "query_count": 160,
+  "gallery_profile_count": 20,
+  "unique_query_id_count": 160,
+  "unique_gallery_5qi_count": 20,
+  "query_text_contains_5qi_token_count": 0,
+  "adapted_query_target_node_count": 0,
+  "exact_kni_text_overlap_count": 0,
+  "all_checks_passed": true
+}

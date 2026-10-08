@@ -1,0 +1,35 @@
+{
+  "dataset": "KNI-Intent-Hard",
+  "seed": 20260711,
+  "base_intents_per_class": 60,
+  "paraphrases_per_base": 6,
+  "templates": [
+    "HT01",
+    "HT02",
+    "HT03",
+    "HT04",
+    "HT05",
+    "HT06",
+    "HT07",
+    "HT08",
+    "HT09",
+    "HT10",
+    "HT11",
+    "HT12"
+  ],
+  "heldout_template_ids": [
+    "HT07",
+    "HT08"
+  ],
+  "split_mode": "group-disjoint",
+  "unseen_modes": [
+    "application",
+    "template"
+  ],
+  "few_shot_k": [
+    1,
+    5,
+    10,
+    20
+  ]
+}

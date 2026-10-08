@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated KCGT manuscript."
+title: "KCGT: Knowledge-Guided Contrastive Graph Transformer for Network Intent Representation"
+type: software
+authors:
+  - family-names: Cai
+    given-names: Linzhao
+  - family-names: Yang
+    given-names: Jianghui
+  - family-names: Xiao
+    given-names: Qingquan
+date-released: 2026-10-08
+license: MIT
+version: 1.0.0

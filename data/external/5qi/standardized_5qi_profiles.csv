@@ -1,0 +1,21 @@
+fiveqi,resource_type,priority_level,packet_delay_budget_ms,packet_error_rate,maximum_data_burst_volume_bytes,service_family,example_service,source_clause,source_url
+1,GBR,20,100,0.01,,conversational_voice,Conversational voice,Table 5.7.4-1,https://www.etsi.org/deliver/etsi_ts/123500_123599/123501/18.12.00_60/ts_123501v181200p.pdf
+2,GBR,40,150,0.001,,live_video,Conversational video and live streaming,Table 5.7.4-1,https://www.etsi.org/deliver/etsi_ts/123500_123599/123501/18.12.00_60/ts_123501v181200p.pdf
+3,GBR,30,50,0.001,,interactive_control,"Real-time gaming, V2X, and process automation",Table 5.7.4-1,https://www.etsi.org/deliver/etsi_ts/123500_123599/123501/18.12.00_60/ts_123501v181200p.pdf
+4,GBR,50,300,1e-06,,buffered_video,Buffered video streaming,Table 5.7.4-1,https://www.etsi.org/deliver/etsi_ts/123500_123599/123501/18.12.00_60/ts_123501v181200p.pdf
+5,Non-GBR,10,100,1e-06,,ims_signalling,IMS signalling,Table 5.7.4-1,https://www.etsi.org/deliver/etsi_ts/123500_123599/123501/18.12.00_60/ts_123501v181200p.pdf
+6,Non-GBR,60,300,1e-06,,tcp_data,Buffered video and TCP-based services,Table 5.7.4-1,https://www.etsi.org/deliver/etsi_ts/123500_123599/123501/18.12.00_60/ts_123501v181200p.pdf
+7,Non-GBR,70,100,0.001,,interactive_media,"Voice, live video, and interactive gaming",Table 5.7.4-1,https://www.etsi.org/deliver/etsi_ts/123500_123599/123501/18.12.00_60/ts_123501v181200p.pdf
+8,Non-GBR,80,300,1e-06,,tcp_data,Buffered video and TCP-based services,Table 5.7.4-1,https://www.etsi.org/deliver/etsi_ts/123500_123599/123501/18.12.00_60/ts_123501v181200p.pdf
+9,Non-GBR,90,300,1e-06,,default_data,Buffered video and TCP-based services,Table 5.7.4-1,https://www.etsi.org/deliver/etsi_ts/123500_123599/123501/18.12.00_60/ts_123501v181200p.pdf
+65,GBR,7,75,0.01,,mission_critical_voice,Mission-critical push-to-talk voice,Table 5.7.4-1,https://www.etsi.org/deliver/etsi_ts/123500_123599/123501/18.12.00_60/ts_123501v181200p.pdf
+67,GBR,15,100,0.001,,mission_critical_video,Mission-critical video,Table 5.7.4-1,https://www.etsi.org/deliver/etsi_ts/123500_123599/123501/18.12.00_60/ts_123501v181200p.pdf
+69,Non-GBR,5,60,1e-06,,mission_critical_signalling,Mission-critical signalling,Table 5.7.4-1,https://www.etsi.org/deliver/etsi_ts/123500_123599/123501/18.12.00_60/ts_123501v181200p.pdf
+70,Non-GBR,55,200,1e-06,,mission_critical_data,Mission-critical data,Table 5.7.4-1,https://www.etsi.org/deliver/etsi_ts/123500_123599/123501/18.12.00_60/ts_123501v181200p.pdf
+75,GBR,25,50,0.01,,v2x,V2X messages,Table 5.7.4-1,https://www.etsi.org/deliver/etsi_ts/123500_123599/123501/18.12.00_60/ts_123501v181200p.pdf
+79,Non-GBR,65,50,0.01,,v2x,V2X messages,Table 5.7.4-1,https://www.etsi.org/deliver/etsi_ts/123500_123599/123501/18.12.00_60/ts_123501v181200p.pdf
+80,Non-GBR,68,10,1e-06,,low_latency_embb,"Low-latency eMBB, AR, and gaming",Table 5.7.4-1,https://www.etsi.org/deliver/etsi_ts/123500_123599/123501/18.12.00_60/ts_123501v181200p.pdf
+82,Delay-Critical GBR,19,10,0.0001,255,discrete_automation,Discrete automation,Table 5.7.4-1,https://www.etsi.org/deliver/etsi_ts/123500_123599/123501/18.12.00_60/ts_123501v181200p.pdf
+85,Delay-Critical GBR,21,5,1e-05,255,remote_control,"High-voltage control, remote driving, and split AI",Table 5.7.4-1,https://www.etsi.org/deliver/etsi_ts/123500_123599/123501/18.12.00_60/ts_123501v181200p.pdf
+89,Delay-Critical GBR,25,15,0.0001,17000,cloud_rendering,Visual cloud and edge rendering,Table 5.7.4-1,https://www.etsi.org/deliver/etsi_ts/123500_123599/123501/18.12.00_60/ts_123501v181200p.pdf
+90,Delay-Critical GBR,25,20,0.0001,63000,cloud_rendering,Visual cloud and edge rendering,Table 5.7.4-1,https://www.etsi.org/deliver/etsi_ts/123500_123599/123501/18.12.00_60/ts_123501v181200p.pdf

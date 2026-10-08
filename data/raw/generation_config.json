@@ -1,0 +1,14 @@
+{
+  "dataset": "KNI-Intent-Pilot",
+  "seed": 20260710,
+  "classes": 8,
+  "base_intents_per_class": 20,
+  "paraphrases_per_base": 3,
+  "expected_samples": 480,
+  "split": {
+    "mode": "group-disjoint",
+    "train_ratio": 0.7,
+    "val_ratio": 0.15,
+    "test_ratio": 0.15
+  }
+}

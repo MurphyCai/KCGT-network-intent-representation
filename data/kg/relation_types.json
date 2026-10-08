@@ -1,0 +1,10 @@
+[
+  "belongs_to",
+  "conflicts_with",
+  "consumes",
+  "deployed_in",
+  "has_function",
+  "has_resource",
+  "requires",
+  "supported_by"
+]

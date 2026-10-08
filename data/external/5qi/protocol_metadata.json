@@ -1,0 +1,11 @@
+{
+  "protocol": "external_3gpp_5qi_qos_test_only",
+  "source": "ETSI TS 123 501 V18.12.0 (3GPP TS 23.501 Release 18), Table 5.7.4-1",
+  "source_url": "https://www.etsi.org/deliver/etsi_ts/123500_123599/123501/18.12.00_60/ts_123501v181200p.pdf",
+  "profiles": 20,
+  "queries": 160,
+  "query_variants_per_profile": 8,
+  "target_leakage_control": "5QI identifiers are absent from query text and adapted query graphs.",
+  "schema_policy": "Raw external schema is retained; an explicit type-level adapter maps it to the frozen NeutralKG vocabulary.",
+  "metric_scope": "PDB, PER, priority, and resource type are standardized. Auxiliary KCGT QoS fields are excluded from core SLA claims."
+}
